@@ -7,7 +7,7 @@ function TodoList() {
   const [todos, setTodos] = useState([]);
   return (
     <div className="todo-list-cintainer">
-      <h1>My Todo App</h1>
+      <h1>My Todo</h1>
       <TodoInput todos={todos} setTodos={setTodos} />
       <div className="todo-items-wrapper">
        {todos.map((item, index,)=>{
